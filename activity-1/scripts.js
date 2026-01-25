@@ -8,17 +8,17 @@ let isStudent = true;
 let emptyValue = null;
 let notAssigned;
 
-console.log("String variable studentName = Greg Perez");
-console.log("Constant number variable age = 34");
-console.log("Boolean variable isStudent = true");
-console.log("Null variable emptyValue is a null object");
-console.log("Undefined variable notAssigned is undefined");
+console.log("Student Name:", studentName);
+console.log("Age :", age);
+console.log("Is Student:", isStudent);
+console.log("Empty Value:", emptyValue);
+console.log("Not Assigned:", notAssigned);
 
-console.log(typeof studentName);
-console.log(typeof age);
-console.log(typeof isStudent);
-console.log(typeof emptyValue);
-console.log(typeof notAssigned);
+console.log("typeof studentName:", typeof studentName);
+console.log("typeof age:", typeof age);
+console.log("typeof isStudent", typeof isStudent);
+console.log("typeof emptyValue:", typeof emptyValue);
+console.log("typeof notAssigned:", typeof notAssigned);
 
 studentName = "John Doe";
 
