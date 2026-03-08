@@ -71,7 +71,7 @@ function updateGreeting(type) {
     const greeting = greetings[type];
 
     if (greeting) {
-        // Uptdate message
+        // Update message
         greetingMessage.textContent = greeting.message;
 
         // Update image
@@ -132,6 +132,6 @@ function personalizeGreeting() {
 // Display welcome message on page load
 
 document.getElementById("output").innerHTML =  
-    "<h3>DOM Maniputlation Demo Loaded!</h3><p>Successfully selected and ready to manipulate DOM elements</p><p>Check the console for detailed demonstrations of DOM operations</p>";
+    "<h3>DOM Manipulation Demo Loaded!</h3><p>Successfully selected and ready to manipulate DOM elements</p><p>Check the console for detailed demonstrations of DOM operations</p>";
 
 console.log("Dynamic Greeting Card application loaded successfully!");

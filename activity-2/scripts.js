@@ -43,7 +43,7 @@ function checkAge() {
         resultDiv.className = "adult";
         console.log('Result: Adult (age:', age + ")");
     } else {
-        resultDiv.textContent = "You are" + age + " years old - You are a minor";
+        resultDiv.textContent = "You are " + age + " years old - You are a minor";
         resultDiv.className = "minor";
         console.log('Result: Minor (age:', age + ")");
     }
