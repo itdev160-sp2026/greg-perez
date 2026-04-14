@@ -38,7 +38,7 @@ function addNumbers(num1, num2) {
 function subtractNumbers(num1, num2) {
     const result = num1 - num2;
     console.log(`Subtraction: ${num1} - ${num2} = ${result}`);
-    return result;0
+    return result;
 }
 
 function multiplyNumbers(num1, num2) {
@@ -138,7 +138,7 @@ function handleOperationClick(event) {
             break;
         default:
             console.error(`Unknown operation: ${operation}`);
-            showError("Unknown operation")
+            showError("Unknown operation");
     }
 }
 
