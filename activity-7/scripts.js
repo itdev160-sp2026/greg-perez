@@ -26,7 +26,7 @@ const products = [
     {
         id: 3,
         name: "JavaScript Programming Guide",
-        description: "Comprehesive guide to modern JavaScript programming techniques and best practices.",
+        description: "Comprehensive guide to modern JavaScript programming techniques and best practices.",
         price: 45.00,
         category: "books",
         image: "https://m.media-amazon.com/images/I/714Bhh248UL._AC_UF1000,1000_QL80_.jpg"

@@ -14,7 +14,7 @@ setTimeout(() => {
     console.log("3. This logs after 1 second (setTimeout)");
 }, 1000);
 
-console.log("2. This also logs immdiately (before setTimeout callback");
+console.log("2. This also logs immediately (before setTimeout callback)");
 
 // Demonstrate the event loop
 console.log("\nEvent loop demo:");

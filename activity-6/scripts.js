@@ -1,7 +1,7 @@
 // Activity 6: Interactive To-Do List (Part 2)
 // Enhanced to-do list with refactored functions and advanced features
 
-console.log("\n== Activity 6: Enhacned To-Do List App==");
+console.log("\n== Activity 6: Enhanced To-Do List App==");
 
 // Application state
 let todoState= {

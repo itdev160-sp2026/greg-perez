@@ -11,7 +11,7 @@ localStorage.setItem("demo-string", "Hello localStorage!");
 console.log("Stored string:", localStorage.getItem("demo-string"));
 
 // Object storage (requires JSON serialization)
-const demoObject = { player: "X", scpre: 3 };
+const demoObject = { player: "X", score: 3 };
 localStorage.setItem("demo-object", JSON.stringify(demoObject));
 const retrievedObject = JSON.parse(localStorage.getItem("demo-object"));
 console.log("Stored object:", retrievedObject);
@@ -186,7 +186,7 @@ function initializeApp() {
         updateStatus();
     }
 
-    // Setu up event listeners
+    // Set up event listeners
     document
         .getElementById("gameBoard")
         .addEventListener("click", handleCellClick);

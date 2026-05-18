@@ -43,7 +43,7 @@ for (let i = 0; i < numbers.length; i++) {
 
 console.log("For...of loop:");
 for (const number of numbers) {
-    console.log(`Value: ${number}`)
+    console.log(`Value: ${number}`);
 }
 
 console.log("forEach method:");
